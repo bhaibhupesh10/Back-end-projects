@@ -1,0 +1,70 @@
+end to end website wil built
+
+basic setup: styling,middleware, backend, self validation, self middleware.
+
+phase 1: responsive, functional, frontend, 	backend, (basical airbnb type website 	uske ander hotels room , create 	account, sign up, list the price and 	photos, property , location, cards, 	property.)
+
+	listing will be creating(all 	listings).
+	* new listing, header footer, 
+
+Getting started
+	*** Database set up 
+	*** REST Apis for CRUD
+
+
+
+
+
+*** Model:Listing***
+	*title
+	*description
+	*image
+	*price
+	*location
+	*country
+	
+
+*** initialize data
+
+
+*** ejs,,,, ejsMate,,,, 
+*** bootstrap used-> css js 
+*** font awesome website to get the icon of the page 
+
+*** font awesome's cdn should be included in the boilerplate and then add the icon class on the place of Navbar
+		** copied from font awesome cdn website 
+
+			***navbar-> sticky-top, background-color:white;
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Validations-> Form validations 
+1.basic condition must be checked, data is correct or in correct format
+
+ * Client side validation
+ * Server side validation
+
+useful data in right formate
+
+database schema of db must be perfect
+
+	* front -> back 
+	* db(schema) -> 
+
+
+When we enter data in the form, the browser and/or the web server will check to see that the data is in the correct format and within the constraints set by the application. 
+
+
+data sahi format me hona chahiye, like password, price +ve , length, numbers
+
+
+we have to tackle from the client side 
+
+
+we took help from bootstrap form validation 
+	added js code logic from bs
+	then added a class in the form class="needs-validation" according to the bootstrap form class
+	.then in boiler plat added the script src tag 
+
+--------------------------------------------------------------------------------
+Success and failure text
